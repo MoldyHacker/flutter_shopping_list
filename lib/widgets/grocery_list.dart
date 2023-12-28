@@ -20,7 +20,7 @@ class GroceryList extends StatelessWidget {
             height: 24,
             color: groceryItems[index].category.color,
           ),
-          trailing: Text('${groceryItems[index].quantity}x'),
+          trailing: Text('x${groceryItems[index].quantity}'),
         ),
       ),
     );
