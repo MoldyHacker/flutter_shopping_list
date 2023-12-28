@@ -12,7 +12,4 @@ class GroceryItem {
   final String name;
   final int quantity;
   final Category category;
-
-
-
 }
